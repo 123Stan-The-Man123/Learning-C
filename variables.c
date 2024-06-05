@@ -19,8 +19,17 @@ int main() {
     int favouriteNum = 5;
     myNum = favouriteNum;
 
-    printf("The value in \"myNum\" has gone from \"%d\" to \"%d\"!", 15, myNum);
+    printf("The value in \"myNum\" has gone from \"%d\" to \"%d\"!\n", 15, myNum);
     
+    // You can add together variables
+    int x = 3;
+    int y = 6;
+    int sum = x+y;
+
+    printf("If you add \"%d\" and \"%d\", you get: %d\n", x, y, sum);
+
+    
+
     //End main()
     return 0;
 }
